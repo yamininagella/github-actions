@@ -9,7 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: print maessage
-        run: echo "✅ Starting process to merge Develop into Main on the ${{ github.repository }}."
-      - name: workflow syntax
-        run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+        run: echo "✅ Starting process to merge Develop into Main on the ${{ github.repository }} by @${{ github.actor }}."
    
