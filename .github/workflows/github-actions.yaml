@@ -1,4 +1,4 @@
-name: Merge Develop branch to Main
+name: demo github actions
 on:
   push:
     branches:
